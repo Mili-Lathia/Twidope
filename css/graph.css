@@ -1,0 +1,88 @@
+h1{
+	font-weight: 700;
+	font-size: 46px;
+}
+
+h2{
+	text-transform: uppercase;
+	font-size: 20px;
+}
+h3{
+	font-size: 14px;
+	font-style: italic;
+	font-weight: 100;
+	line-height: 26px;
+}
+
+h4{
+	text-transform: uppercase;
+	font-size: 16px;
+	word-spacing: 2px;
+}
+h5{
+	text-transform: uppercase;
+	font-size: 12px;
+	word-spacing: 2px;
+}
+h6{
+	text-transform: uppercase;
+	font-size: 10px;
+	word-spacing: 2px;
+	letter-spacing: 2px;
+}
+
+p{
+	font-weight: 400;
+}
+.border{
+	border-radius:50%;
+	border-color:#c59a6d;
+	border-width: 15px;
+}
+hr{
+	border-width: 5px;
+	border-radius:8px;
+	width: 250px;
+	border-color: #c59a6d;
+}
+.team hr{
+	width: 150px;
+	border-color: #c59a6d;
+}
+a {color: #222222}
+a:hover,
+a:focus{
+	color: #c59a6d;
+	text-decoration: none;
+	
+}
+.section-title{ 
+	text-transform: uppercase;
+	padding:30px;
+	word-spacing: 2px;
+	letter-spacing: 2px;
+	
+}
+.space{padding:15px;}
+
+.team.hire>a{
+	color: #c59a6d;
+}
+.team hr{
+	border-width: 2px;
+	border-color: #dcc2a7;
+}
+.team{ 
+	padding: 70px 20px;
+	background-color:white;
+	text-align: center;
+	opacity: 0.9;
+	transition: all 0.8s;
+	max-height: 420px;
+	width: 1020px;
+	margin-left:100px;
+	margin-bottom: 30px;
+	opacity: 1;
+	border: 1px solid #222;
+    box-shadow:1px 5px 10px;
+}

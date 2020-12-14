@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+@import url('font-awesome.css');
+/* ==== overwrite bootstrap standard ==== */
+@import url('animate.css');
+
+.slider {
+	position: relative;	
+	margin-top:-20px;
+	margin-top:10px;
+	
+	margin-bottom:10px;
+}
+
+.slider img {
+    width: 100%;
+    filter: grayscale(0%);
+	opacity:0.9;
+	height:100px;
+}
+
+#carousel-slider {
+  position: relative;
+}
+
+#carousel-slider .carousel-indicators {
+  bottom: -40px;
+}
+
+#carousel-slider .carousel-indicators li {
+  border: 1px solid #ffbd20;
+}
+
+#carousel-slider a i {
+	border-radius:50%;
+	font-size: 30px;
+	height: 50px;
+	padding: 10px;
+	position: absolute;
+	top: 50%;
+	width: 50px;
+	color:#65AAF0;
+	background:#65AAF0;
+	color:#fff;
+}
+
+#carousel-slider a i:hover {
+	background:#65AAF0;
+	color:#fff;
+	border: 1px solid #65AAF0;
+}
+
+#carousel-slider 
+.carousel-control {
+	width:inherit;
+}
+
+#carousel-slider .carousel-control.left i {
+	left:50px;
+	top: calc(50% - 50px);
+}
+
+#carousel-slider .carousel-control.right i {
+	right: 50px;
+	top: calc(50% - 50px);
+}
+
+.carousel-caption {
+	position: absolute;
+	right: 15%;
+	top: calc(50% - 150px);
+	font-size:40px;
+	left: 15%;
+	z-index: 10;
+	padding-bottom: 0px;
+	color: #fff;
+	text-align: center;
+}
+
+.carousel-caption  h2 {
+	font-size:60px;
+	color: #fff;
+}
+
+.carousel-caption  h2 span {
+	font-size:60px;
+	color:black;
+	
+}
+
+.carousel-caption  p {
+	font-size:30px;
+	margin-top:30px;
+	margin-bottom:20px;
+	color:#fff;
+	padding:10px;
+	background:#65AAF0;
+}
+
+@media (max-width: 767px) {
+    .carousel-caption  {
+      font-size: 15px;
+    }
+    .carousel-caption h2, .carousel-caption  h2 span, .carousel-caption  p {
+    	font-size:15px;
+    }
+}
